@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+table, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+td {
+    text-align: center;
+}
+#Mon, #Tue, #Wed, #Thu, #Fri, #Sat, #Sun {
+    font-size: 1.2em;
+}
+.day-headline {
+    font-weight: bold;
+    background-color: rgb(124, 124, 124);
+    color: #fff;
+}
