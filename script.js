@@ -25,36 +25,31 @@ headlineStyler()
 
 function updateEvent(){
     /* KEDD */
-    while(nap == 2 && óra >= 11 && perc >= 30 && óra <= 14) {
-        művtKórus.style.background = "#99e0a5"
+    while(nap == 2 && óra >= 9 && óra <= 10) {
+        muvtori.style.background = "#99e0a5"
         break;
     }
-    while(nap == 2 && óra >= 15 && óra <= 16){
-        kamara.style.background = "#99e0a5"
+    while(nap == 2 && óra >= 12 && óra <= 13){
+        korus.style.background = "#99e0a5"
         break;
     }
-    while(nap == 2 && óra >= 19 && óra <= 20){
-        gitár1.style.background = "#99e0a5"
+    while(nap == 2 && óra >= 16 && óra <= 17){
+        gitar.style.background = "#99e0a5"
+    }
+    while(nap == 2 && óra >= 20 && óra <= 21) {
+        continuo.style.background = "#99e0a5"
     }
     /* SZERDA */
-    while(nap == 3 && óra >= 8 && perc >= 30 && óra <= 10) {
-        zir.style.background = "#e0918b"
+    while(nap == 3 && óra >= 8 && óra <= 9) {
+        mzt.style.background = "#e0918b"
         break;
     }
-    while(nap == 3 && óra >= 12 && óra <= 13 && perc <= 30){
-        aco.style.background = "#e0918b"
-        break;
-    }
-    while(nap == 3 && óra >=17 && óra <= 18) {
-        gitár2.style.background = "#e0918b"
-        break;
-    }
-    while(nap == 3 && óra >= 20 && óra <= 21){
-        conti.style.background = "#e0918b"
+    while(nap == 3 && óra >= 15 && óra <= 16){
+        kamara.style.background = "#e0918b"
         break;
     }
    /*  CSÜTÖRTÖK */
-   while(nap == 4 && óra >= 13 && óra <= 14 && perc <= 30){
+   while(nap == 4 && óra >= 13 && óra <= 14){
     szolf.style.background = "#f0d5a1"
     break;
    }
